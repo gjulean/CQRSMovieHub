@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Api", "1.Api", "{7FA60769-A00E-436D-A01A-27C3693FDB6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSMovieHub.Api", "1.Api\CQRSMovieHub.Api.csproj", "{451B348D-E474-47DA-9E7B-6B4894C5237B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Services", "2.Services", "{2F0F5DFB-D149-44C3-811C-32360B3E4371}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSMovieHub.Services.Contracts", "2.Services\CQRSMovieHub.Services\CQRSMovieHub.Services.Contracts.csproj", "{2EAA9216-E5A4-4097-BE48-4C04EDEC86F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{92779C3F-A1C2-4F08-8C9B-96E4532DF50D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSMovieHub.Domain.Entities", "3.Domain\CQRSMovieHub.Domain.Entities\CQRSMovieHub.Domain.Entities.csproj", "{2977CA8C-941B-43E0-BE9E-4D4B2F5240CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.DataAccess", "4.DataAccess", "{D1922743-3E35-4930-B2D0-1EB730237F44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSMovieHub.Queries.DataAccess.Implementations", "4.DataAccess\CQRSMovieHub.DataAccess\CQRSMovieHub.Queries.DataAccess.Implementations.csproj", "{F0CDADAC-793F-4741-B33F-BBCC813ADDBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSMovieHub.Services.Implementations", "2.Services\CQRSMovieHub.Services.Implementations\CQRSMovieHub.Services.Implementations.csproj", "{3CFB90C5-2088-455F-85A4-3F9E5BBDD897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSMovieHub.Queries.DataAccess.Contracts", "4.DataAccess\CQRSMovieHub.Queries.DataAccess.Contracts\CQRSMovieHub.Queries.DataAccess.Contracts.csproj", "{72074F25-C218-4798-9756-8D5D6C43D65B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSMovieHub.Command.DataAccess.Implementations", "4.DataAccess\CQRSMovieHub.Command.DataAccess.Implementations\CQRSMovieHub.Command.DataAccess.Implementations.csproj", "{02249500-17E9-4458-A275-29A8829E68E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSMovieHub.Commands.DataAccess.Contracts", "4.DataAccess\CQRSMovieHub.Commands.DataAccess.Contracts\CQRSMovieHub.Commands.DataAccess.Contracts.csproj", "{52551978-D85D-4710-BAC7-29D1387454AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{451B348D-E474-47DA-9E7B-6B4894C5237B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{451B348D-E474-47DA-9E7B-6B4894C5237B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{451B348D-E474-47DA-9E7B-6B4894C5237B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{451B348D-E474-47DA-9E7B-6B4894C5237B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAA9216-E5A4-4097-BE48-4C04EDEC86F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAA9216-E5A4-4097-BE48-4C04EDEC86F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAA9216-E5A4-4097-BE48-4C04EDEC86F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAA9216-E5A4-4097-BE48-4C04EDEC86F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2977CA8C-941B-43E0-BE9E-4D4B2F5240CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2977CA8C-941B-43E0-BE9E-4D4B2F5240CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2977CA8C-941B-43E0-BE9E-4D4B2F5240CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2977CA8C-941B-43E0-BE9E-4D4B2F5240CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0CDADAC-793F-4741-B33F-BBCC813ADDBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0CDADAC-793F-4741-B33F-BBCC813ADDBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0CDADAC-793F-4741-B33F-BBCC813ADDBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0CDADAC-793F-4741-B33F-BBCC813ADDBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CFB90C5-2088-455F-85A4-3F9E5BBDD897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFB90C5-2088-455F-85A4-3F9E5BBDD897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFB90C5-2088-455F-85A4-3F9E5BBDD897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFB90C5-2088-455F-85A4-3F9E5BBDD897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72074F25-C218-4798-9756-8D5D6C43D65B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72074F25-C218-4798-9756-8D5D6C43D65B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72074F25-C218-4798-9756-8D5D6C43D65B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72074F25-C218-4798-9756-8D5D6C43D65B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02249500-17E9-4458-A275-29A8829E68E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02249500-17E9-4458-A275-29A8829E68E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02249500-17E9-4458-A275-29A8829E68E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02249500-17E9-4458-A275-29A8829E68E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52551978-D85D-4710-BAC7-29D1387454AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52551978-D85D-4710-BAC7-29D1387454AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52551978-D85D-4710-BAC7-29D1387454AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52551978-D85D-4710-BAC7-29D1387454AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{451B348D-E474-47DA-9E7B-6B4894C5237B} = {7FA60769-A00E-436D-A01A-27C3693FDB6C}
+		{2EAA9216-E5A4-4097-BE48-4C04EDEC86F2} = {2F0F5DFB-D149-44C3-811C-32360B3E4371}
+		{2977CA8C-941B-43E0-BE9E-4D4B2F5240CB} = {92779C3F-A1C2-4F08-8C9B-96E4532DF50D}
+		{F0CDADAC-793F-4741-B33F-BBCC813ADDBE} = {D1922743-3E35-4930-B2D0-1EB730237F44}
+		{3CFB90C5-2088-455F-85A4-3F9E5BBDD897} = {2F0F5DFB-D149-44C3-811C-32360B3E4371}
+		{72074F25-C218-4798-9756-8D5D6C43D65B} = {D1922743-3E35-4930-B2D0-1EB730237F44}
+		{02249500-17E9-4458-A275-29A8829E68E9} = {D1922743-3E35-4930-B2D0-1EB730237F44}
+		{52551978-D85D-4710-BAC7-29D1387454AB} = {D1922743-3E35-4930-B2D0-1EB730237F44}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8575741A-D916-49FD-9CA8-FBBE1337EE1F}
+	EndGlobalSection
+EndGlobal
